@@ -16,16 +16,12 @@
 例：
 
     freopen("in/x.txt", "r", stdin);
-    freopen("out/x.txt", "w", stdout);
 
-    FILE * input = fopen("in/x.txt", "r");
-    FILE * output = fopen("out/x.txt", "w");
+    FILE *input = fopen("in/x.txt", "r");
 
     ifstream fin("in/x.txt");
-    ofstream fout("out/x.txt");
 
 参见：  
 <https://zh.cppreference.com/w/c/io/freopen>  
 <https://zh.cppreference.com/w/c/io/fopen>  
 <https://zh.cppreference.com/w/cpp/io/basic_ifstream>  
-<https://zh.cppreference.com/w/cpp/io/basic_ofstream>  
